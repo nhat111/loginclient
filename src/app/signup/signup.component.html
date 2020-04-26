@@ -1,0 +1,19 @@
+ <form>
+ 	<div class="container">
+ 		<label for="uname"><b>Username</b></label>
+ 		<input type="text" [(ngModel)] = "form.userName" placeholder="Enter Username" name="uname" required>
+ 		<label for="psw"><b>Password</b></label>
+ 		<input [(ngModel)] ="form.password" type="password" placeholder="Enter Password" name="psw" required>
+ 		<label for="fname"><b>First Name</b></label>
+ 		<input type="text"  [(ngModel)] ="form.firstName" placeholder="Enter First Name" name="fname" required>
+ 		<label for="lname"><b>Last Name</b></label>
+ 		<input type="text"  [(ngModel)] ="form.lastName" placeholder="Enter First Name" name="lname" required>
+ 		<label for="bday"><b>birthDay</b></label>
+ 		<input type="text"  [(ngModel)] ="form.birthDay" placeholder="Enter birthDay" name="bday" required>
+ 		<label for="gdr"><b>Gender</b></label>
+ 		<input type="text"  [(ngModel)] ="form.gender" placeholder="Enter Gender" name="gdr" required>
+ 		<label for="adr"><b>Address</b></label>
+ 		<input type="text"  [(ngModel)] ="form.address" placeholder="Enter Address" name="adr" required>
+ 		<button (click)="doRegister()">Register</button>
+ 	</div>
+ </form> 
